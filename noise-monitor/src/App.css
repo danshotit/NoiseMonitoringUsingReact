@@ -1,0 +1,50 @@
+/* src/components/NoiseMonitor.css */
+
+.monitor-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.display {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.start-button,
+.stop-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.start-button {
+  background-color: #007BFF;
+}
+
+.start-button:disabled {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
+
+.stop-button {
+  background-color: #FF0000;
+}
+
+.stop-button.active {
+  background-color: #FF4500;
+}
+
+.stop-button:disabled {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
